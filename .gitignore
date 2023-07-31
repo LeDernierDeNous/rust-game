@@ -1,1 +1,5 @@
+# Rust artifacts
 /target
+
+# vscode folder
+.vscode

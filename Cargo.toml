@@ -7,6 +7,10 @@ edition = "2021"
 
 [dependencies]
 bevy = "0.11.0"
+rand = "0.8.5"
+
+[workspace]
+resolver = "2" # Require from wgpu/Bevy 
 
 # Enable a small amount of optimization in debug mode
 [profile.dev]
